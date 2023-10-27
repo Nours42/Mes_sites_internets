@@ -1,0 +1,214 @@
+/*FONTS*/
+
+@font-face {
+  font-family: "playfair-regular";
+  src: url(./assets/fonts/PlayfairDisplay-Regular.ttf);
+}
+
+@font-face {
+  font-family: "playfair-extra-bold-italic";
+  src: url(./assets/fonts/PlayfairDisplay-BoldItalic.ttf);
+}
+
+@font-face {
+  font-family: "cardo";
+  src: url(./assets/fonts/Cardo-Regular.ttf);
+}
+
+/*ALL*/
+
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  transition: all .2s ease 0s;
+}
+
+html {
+  font-family: "cardo";
+  color: #383C48;
+  font-size: 62.5%;
+  /* va ramener nos tailles à 1em ou 1rem = 10px*/
+}
+
+h1 {
+  text-align: center;
+  font-family: "playfair-extra-bold-italic";
+  font-size: 3em;
+  color: white;
+  text-shadow: #000 0.1em 0.1em 0.2em;
+  max-width: 85%;
+  margin: 1% 0 3% 0;
+}
+
+h2,
+h3 {
+  font-family: "playfair-regular";
+  text-align: center;
+  color: #3e424b
+}
+
+h2 {
+  font-size: 1.8em;
+}
+
+h3 {
+  font-size: 1.6em;
+}
+
+p {
+  font-size: 1em;
+  text-align: center;
+}
+
+
+
+/*HEADER*/
+header {
+  background-color: #152452;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 100%;
+}
+
+header nav {
+  padding: 2% 10% 0% 10%;
+  display: flex;
+  justify-content: center;
+  font-size: 1em;
+  color: #FFFFFE;
+  text-shadow: #000 0.1em 0.1em 0.2em;
+  margin: 1% 0;
+}
+
+header nav a {
+  color: #FEFFFF;
+  text-shadow: #000 0.1em 0.1em 0.2em;
+  padding: 0% 5%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+  font-size: 1.6em;
+}
+
+header nav div a p {
+  font-size: 1.1em;
+  text-align: center;
+}
+
+/*MAIN*/
+
+main {
+  max-width: 95%;
+  margin: 0 auto;
+  font-size: 1.3em;
+
+}
+
+main p {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  font-size: 1em;
+}
+
+main a {
+  font-family: "Dancing Script", cursive;
+  font-size: 1.8em;
+  color: #3e424b;
+}
+
+section {
+  width: 100%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.auberge, .bees, .tablee {
+  border: 1px solid #010101;
+  border-radius: 5%;
+  width: 50%
+}
+
+/*FOOTER*/
+
+footer,
+footer p {
+  padding: 1% 0;
+  background-color: #010101;
+  color: #FEFEFE;
+  text-align: center;
+  font-size: 1.2em;
+
+}
+
+footer p a {
+  font-family: "Dancing Script", cursive;
+  font-size: 1.8em;
+  color: #3e424b;
+}
+
+/* CONTACT */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input, textarea {
+  width: 90%;
+}
+form p input {
+  width: 200px;
+}
+
+@media screen and (min-width: 1240px) {
+
+  /*ALL*/
+  /*HEADER*/
+  
+
+  header>nav {
+    font-size: 2em;
+  }
+
+  header>h1 {
+    font-size: 5em;
+  }
+
+  /* MAIN */
+  main {
+    font-size: 3em;
+  }
+
+  /* PRODUCTS */
+  
+  .auberge, .bees, .tablee{
+    border: solid 1px #010101;
+    border-radius: 5%;
+    width: 20%
+  }
+
+  /* CONTACT */
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    input,
+    textarea {
+      width: 50%;
+      height: 100%;
+    }
+
+    form p input {
+      width: 200px;
+    }
+  
+}

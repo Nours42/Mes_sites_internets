@@ -1,0 +1,286 @@
+/*FONTS*/
+
+@font-face {
+  font-family: "playfair-regular";
+  src: url(./assets/fonts/PlayfairDisplay-Regular.ttf);
+}
+
+@font-face {
+  font-family: "playfair-extra-bold-italic";
+  src: url(./assets/fonts/PlayfairDisplay-BoldItalic.ttf);
+}
+
+@font-face {
+  font-family: "cardo";
+  src: url(./assets/fonts/Cardo-Regular.ttf);
+}
+
+
+
+/*ALL*/
+
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  transition: all .2s ease 0s;
+}
+
+html {
+  font-family: "cardo";
+  color: #383C48;
+  font-size: 62.5%;
+  /* va ramener nos tailles à 1em ou 1rem = 10px*/
+}
+
+
+
+h1 {
+  text-align: center;
+  font-family: "playfair-extra-bold-italic";
+  font-size: 3em;
+  color: white;
+  text-shadow: #000 0.1em 0.1em 0.2em;
+  max-width: 85%;
+}
+
+h2, h3 {
+  font-family: "playfair-regular";
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.8em;
+}
+
+h3 {
+  font-size: 1.6em;
+}
+
+p {
+  font-size: 1em;
+  text-align: justify;
+}
+
+li {
+  list-style-type: none;
+  text-align: center;
+  font-size: 1em;
+}
+
+/*HEADER*/
+header {
+  background-image: url("./assets/img/Phone/portrait/fond header en 360x220.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 100%;
+}
+
+header>nav {
+  padding: 2% 10% 0% 10%;
+  display: flex;
+  justify-content: center;
+  font-size: 1em;
+  color: #FFFFFE;
+  text-shadow: #000 0.1em 0.1em 0.2em;
+}
+
+header>nav>a {
+  color: #FEFFFF;
+  text-shadow: #000 0.1em 0.1em 0.2em;
+  padding: 0% 5%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.6em;
+}
+
+head>nav>div>a>p {
+  font-size: 1.1em;
+}
+
+/*MAIN*/
+
+main {
+  max-width: 95%;
+  margin: 0 auto;
+  font-size: 1.3em;
+  
+}
+
+main>img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.gite, .rue {
+  width: 50%;
+  height: 50%;
+}
+
+main p {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  font-size: 1em;
+}
+
+main a {
+  color:#152452;
+}
+section {
+  width: 100%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.round {
+  border-radius: 50%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  width: 33%;
+  height: 33%;
+}
+
+
+
+.rando, .randoplus {
+  margin: 1% 0;
+}
+
+.iframe {
+  width: 360px;
+  height: 360px;
+}
+
+/* RESTAURANT*/
+
+.cote, .burger {
+  width: 120px;
+  height: 120px;
+}
+
+/* AUBERGE */
+
+.chambres {
+  width: 120px;
+  height: 120px;
+}
+
+/* CONTACT */
+
+.logo {
+  width: 60px;
+  height: 60px;
+}
+
+/*FOOTER*/
+
+footer, footer p {
+  padding: 1% 0;
+  background-color: #010101;
+  color: #FEFEFE;
+  text-align: center;
+  font-size: 1.2em;
+
+}
+footer p a {
+  font-family: "Dancing Script", cursive;
+  font-size: 1.8em;
+  color: #3e424b;
+}
+
+@media screen and (min-width: 1240px) {
+
+  /*ALL*/
+  /*HEADER*/
+    header {
+      background-image: url("./assets/img/Default/fond\ header\ 1240.png");
+    }
+  
+    header>nav {
+      font-size: 2em;
+    }
+  
+    header>h1 {
+      font-size: 5em;
+    }
+  /* MAIN */
+    main {
+      font-size: 3em;
+    }
+
+    main>section>p {
+      text-align: justify;
+    }
+  
+    .gite,
+    .rue {
+      width: 30%;
+      height: 30%;
+    }
+
+    .rando-patri-gastro {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    .rando {
+      margin-top: 10px;
+      margin-bottom: 28px;
+    }
+
+    .randoplus {
+      margin: 20px 0;
+    }
+
+    .round {
+      width: 240px;
+      height: 240px;
+    }
+
+    .petit {
+      text-align: justify;
+      padding: 1% 5%
+    }
+
+    .iframe {
+      width: 100%;
+      height: 360px;
+    }
+
+    /* RESTAURANT*/
+  
+    .cote,
+    .burger {
+      width: 240px;
+      height: 240px;
+    }
+
+    /* AUBERGE */
+
+    .chambres {
+      width: 240px;
+      height: 240px;
+    }
+
+    /* CONTACT */
+
+    .logo {
+      width: 120px;
+      height: 120px;
+    }
+
+    .contact {
+      text-align: center;
+    }
+
+}

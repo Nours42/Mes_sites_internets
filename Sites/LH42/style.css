@@ -1,0 +1,91 @@
+img{
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.page {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+
+.NotToday {
+	background-color: #3A1E73;
+	max-height: 400px;
+}
+
+.link1 {
+	position: absolute;
+	top: 4%;
+	left: 65%;
+	width: 16%;
+	height: 2%;
+}
+
+.link2 {
+	position: absolute;
+	top: 29%;
+	left: 5%;
+	width: 25%;
+	height: 6%;
+}
+
+.link3 {
+	position: absolute;
+	top: 29%;
+	left: 37%;
+	width: 25%;
+	height: 6%;
+}
+
+.link4 {
+	position: absolute;
+	top: 29%;
+	left: 69%;
+	width: 25%;
+	height: 6%;
+}
+
+.link5 {
+	position: absolute;
+	top: 93%;
+	left: 32%;
+	width: 33%;
+	height: 3%;
+}
+
+.link6 {
+	position: absolute;
+	top: 97.8%;
+	left: 5%;
+	width: 8%;
+	height: 1.2%;
+}
+
+.link7 {
+	position: absolute;
+	top: 97.8%;
+	left: 38%;
+	width: 24%;
+	height: 1.3%;
+}
+
+.link8 {
+	position: absolute;
+	top: 97.8%;
+	left: 79%;
+	width: 16%;
+	height: 1.3%;
+}
+
+.linkNotToday {
+	position: absolute;
+	top: 1%;
+	left: 1%;
+	width: 98%;
+	height: 98%;
+}
+
+.border {
+	border: 3px solid black;
+}

@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.66397101.css",
+    "main.js": "/static/js/main.5d7fa120.js",
+    "static/js/787.9c564956.chunk.js": "/static/js/787.9c564956.chunk.js",
+    "static/media/fond header 1240.png": "/static/media/fond header 1240.adacaa8836cd1687873b.png",
+    "static/media/Cardo-Regular.ttf": "/static/media/Cardo-Regular.4ad75d4da97e1cf6655b.ttf",
+    "static/media/gite en 360x480.png": "/static/media/gite en 360x480.319a4bda7b343e03468e.png",
+    "static/media/rue en 360x550.png": "/static/media/rue en 360x550.db9f6dd58a29ce2210f8.png",
+    "static/media/cote.png": "/static/media/cote.78e4238b5a0521eccdfd.png",
+    "static/media/randonnee.png": "/static/media/randonnee.58636a1b486007779a74.png",
+    "static/media/chambre1.png": "/static/media/chambre1.790a9fb739f3e1274e65.png",
+    "static/media/PlayfairDisplay-Regular.ttf": "/static/media/PlayfairDisplay-Regular.27705d9c43e8c36b1abd.ttf",
+    "static/media/burger.png": "/static/media/burger.96bc59861ca19be644aa.png",
+    "static/media/chambre2.png": "/static/media/chambre2.0168757b66274ba1ba89.png",
+    "static/media/PlayfairDisplay-BoldItalic.ttf": "/static/media/PlayfairDisplay-BoldItalic.a31df86d28c290c8e682.ttf",
+    "static/media/patrimoine.png": "/static/media/patrimoine.b2a408833ab167b281cc.png",
+    "static/media/fond header en 360x220.png": "/static/media/fond header en 360x220.cd55323cb9ab39ae34f3.png",
+    "static/media/gastronomie.png": "/static/media/gastronomie.16971f224dcc04c2ea58.png",
+    "static/media/chambre3.png": "/static/media/chambre3.906a435360b59d6bf931.png",
+    "static/media/telephone.png": "/static/media/telephone.7e925d62c4e3a6907b88.png",
+    "index.html": "/index.html",
+    "main.66397101.css.map": "/static/css/main.66397101.css.map",
+    "main.5d7fa120.js.map": "/static/js/main.5d7fa120.js.map",
+    "787.9c564956.chunk.js.map": "/static/js/787.9c564956.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66397101.css",
+    "static/js/main.5d7fa120.js"
+  ]
+}
