@@ -25,7 +25,8 @@ devellopement d'application. La conception de sites internet est une corde de pl
 ~~~~~   LH42   ~~~~~
 
 Site prévu pour être celui d'une association de jeux vidéo et de stream depuis l'école 42
-Perpignan. La création d'association a capoté et du coup ce site n'a jamais vraiment fonctionné.
+Perpignan. La création d'association a capoté et du coup ce site n'a jamais vraiment
+fonctionné.
 
 ~~~~~   Une Tablée dans ta poche   ~~~~~
 
